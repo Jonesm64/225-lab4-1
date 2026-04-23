@@ -55,7 +55,7 @@ spec:
       volumes:
         - name: nfs-storage
           persistentVolumeClaim:
-            claimName: pvc    
+            claimName: flash-pvc    
 ---
 apiVersion: v1
 kind: Service
